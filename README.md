@@ -12,3 +12,5 @@
   * `npm run dev`
   
 * Aplicação por padrão, estará disponível em `localhost:3000`
+---------------
+projeto em construção...
