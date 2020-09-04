@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "matricula": "2001",
+      "name": "Macia Maria",
+      "nascimento": "21/08/1994",
+      "endereco": "Rua das Flores, 16, Centro, Recife - PE CEP: 51.753-123",
+      "serie": "2° Ano Fundamental",
+      "turma": "A",
+      "filiacao1": "Jão Alfredo",
+      "filiacao2": "Juliana Cabral",
+      "mais": "Tele do pai (81)999.999.123",
+      "turno": "Manhã",
+      "dcadastro": "04/09/2020",
+      "id": 1
+    }
+  ],
+  "teachers": [
+    {
+      "name": "Solange Maria Sauza",
+      "cpf": "01234567890",
+      "pispasep": "01234567890123456",
+      "serie": "9",
+      "turma": "C",
+      "materia": "Matematica",
+      "nascimento": "21/08/1996",
+      "dcadastro": "02/09/2020 37:17",
+      "id": 1
+    }
+  ]
+}
