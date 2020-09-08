@@ -1,30 +1,54 @@
 {
   "users": [
     {
+      "ano": [
+        {
+          "serie": "2° Ano Fundamental",
+          "turma": "A"
+        }
+      ],
       "matricula": "2001",
       "name": "Macia Maria",
       "nascimento": "21/08/1994",
       "endereco": "Rua das Flores, 16, Centro, Recife - PE CEP: 51.753-123",
-      "serie": "2° Ano Fundamental",
-      "turma": "A",
       "filiacao1": "Jão Alfredo",
       "filiacao2": "Juliana Cabral",
       "mais": "Tele do pai (81)999.999.123",
       "turno": "Manhã",
       "dcadastro": "04/09/2020",
       "id": 1
+    },
+    {
+      "ano": [
+        {
+          "serie": "",
+          "turma": ""
+        }
+      ],
+      "matricula": "2002",
+      "name": "Tioago Maria",
+      "nascimento": "21/08/1994",
+      "endereco": "Rua das Flores, 16, Centro, Recife - PE CEP: 51.753-123",
+      "filiacao1": "Jão Alfredo",
+      "filiacao2": "Juliana Cabral",
+      "mais": "Tele do pai (81)999.999.123",
+      "turno": "Manhã",
+      "dcadastro": "04/09/2020",
+      "id": 2,
+      "serie": "1° Ano Fundamental",
+      "turma": "C"
     }
   ],
   "teachers": [
     {
-      "name": "Solange Maria Sauza",
-      "cpf": "01234567890",
-      "pispasep": "01234567890123456",
-      "serie": "9",
-      "turma": "C",
-      "materia": "Matematica",
-      "nascimento": "21/08/1996",
-      "dcadastro": "02/09/2020 37:17",
+      "name": "Paulo Ferreira",
+      "cpf": "012.345.678-90",
+      "pispasep": "012.34567.89-0",
+      "serie": "1° Ano Fundamental",
+      "turma": "",
+      "materia": "Portugues",
+      "nascimento": "01/12/1990",
+      "dcadastro": "08/09/2020",
       "id": 1
     }
   ]
