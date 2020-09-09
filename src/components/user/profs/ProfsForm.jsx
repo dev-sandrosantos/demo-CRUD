@@ -1,4 +1,5 @@
 import React from 'react'
+import MaskedInput from 'react-maskedinput'
 
 export default props => 
 
@@ -15,11 +16,12 @@ export default props =>
                 onChange={e => props.updateField(e)}
                 placeholder="Digite o nome." />
         </div>
-    </div>                   
+    </div>
     <div className="col-6 col-md-2">
         <div className="form-goup">
             <label>Nascimento</label>
-            <input type="text" className="form-control"
+            <MaskedInput mask='11/11/1111'
+                className="form-control"
                 name="nascimento" 
                 value={props.nascimento}
                 autoComplete="off"
@@ -31,7 +33,8 @@ export default props =>
     <div className="col-6 col-md-2">
         <div className="form-goup">
             <label>CPF</label>
-            <input type="text" className="form-control"
+            <MaskedInput mask='111.111.111-11'
+                className="form-control"
                 name="cpf" 
                 value={props.cpf}
                 autoComplete="off"
@@ -97,13 +100,27 @@ export default props =>
     <div className="col-2 col-md-2">
         <div className="form-goup">
             <label>PIS/PASEP</label>
-            <input type="text" className="form-control"
+            <MaskedInput mask='111.11111.11-1' 
+                className="form-control"
                 name="pispasep" 
                 value={props.pispasep}
                 autoComplete="off"
                 onKeyPress={props.handleEnterPress}
                 onChange={e => props.updateField(e)}
                 placeholder="PIS/PASEP" />
+        </div>
+    </div>
+    <div className="col-6 col-md-2">
+        <div className="form-goup">
+            <label>Data de Cadastro</label>
+            <MaskedInput mask='11/11/1111'
+                className="form-control"
+                name="dcadastro" 
+                value={props.dcadastro}
+                autoComplete="off"
+                onKeyPress={props.handleEnterPress}
+                onChange={e => props.updateField(e)}
+                placeholder="dd/mm/aaaa" />
         </div>
     </div>
 </div>

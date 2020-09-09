@@ -1,4 +1,5 @@
 import React from 'react'
+import MaskedInput from 'react-maskedinput'
 
 export default props => 
 
@@ -19,7 +20,8 @@ export default props =>
     <div className="col-6 col-md-2">
         <div className="form-goup">
             <label>Nascimento</label>
-            <input type="text" className="form-control"
+            <MaskedInput mask='11/11/1111' 
+                className="form-control"
                 name="nascimento" 
                 value={props.nascimento}
                 autoComplete="off"

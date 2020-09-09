@@ -3,30 +3,12 @@
     {
       "ano": [
         {
-          "serie": "2° Ano Fundamental",
-          "turma": "A"
-        }
-      ],
-      "matricula": "2001",
-      "name": "Macia Maria",
-      "nascimento": "21/08/1994",
-      "endereco": "Rua das Flores, 16, Centro, Recife - PE CEP: 51.753-123",
-      "filiacao1": "Jão Alfredo",
-      "filiacao2": "Juliana Cabral",
-      "mais": "Tele do pai (81)999.999.123",
-      "turno": "Manhã",
-      "dcadastro": "04/09/2020",
-      "id": 1
-    },
-    {
-      "ano": [
-        {
           "serie": "",
           "turma": ""
         }
       ],
       "matricula": "2002",
-      "name": "Tioago Maria",
+      "name": "Fulano Neto",
       "nascimento": "21/08/1994",
       "endereco": "Rua das Flores, 16, Centro, Recife - PE CEP: 51.753-123",
       "filiacao1": "Jão Alfredo",
@@ -37,11 +19,39 @@
       "id": 2,
       "serie": "1° Ano Fundamental",
       "turma": "C"
+    },
+    {
+      "matricula": "2001",
+      "name": "Marcos Souza",
+      "nascimento": "14/09/2013",
+      "endereco": "Rua Seis",
+      "serie": "3° Ano Fundamental",
+      "turma": "A",
+      "filiacao1": "Pedro Henrique",
+      "filiacao2": "Flavia Maria",
+      "mais": "",
+      "turno": "Manhã",
+      "dcadastro": "08/09/2020",
+      "id": 3
+    },
+    {
+      "matricula": "0123456789",
+      "name": "Mateus Matins",
+      "nascimento": "21/03/1989",
+      "endereco": "Rua das uni, 55, Centro, Recife -PE",
+      "serie": "1° Ano Fundamental",
+      "turma": "B",
+      "filiacao1": "João",
+      "filiacao2": "MAria",
+      "mais": "sem comentários",
+      "turno": "Tarde",
+      "dcadastro": "09/09/2020",
+      "id": 4
     }
   ],
   "teachers": [
     {
-      "name": "Paulo Ferreira",
+      "name": "Neto de Fulano",
       "cpf": "012.345.678-90",
       "pispasep": "012.34567.89-0",
       "serie": "1° Ano Fundamental",
@@ -50,6 +60,17 @@
       "nascimento": "01/12/1990",
       "dcadastro": "08/09/2020",
       "id": 1
+    },
+    {
+      "name": "Carlos Eduardo",
+      "cpf": "123.456.789-01",
+      "pispasep": "551.23456.81-5",
+      "serie": "1° Ano Fundamental",
+      "turma": "B",
+      "materia": "Portugues",
+      "nascimento": "21/09/1976",
+      "dcadastro": "11/03/2020",
+      "id": 2
     }
   ]
 }
