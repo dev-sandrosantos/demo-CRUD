@@ -18,7 +18,7 @@ export default props =>
         </div>
     </div>                   
     <div className="col-6 col-md-2">
-        <div className="form-goup">
+        <div className="form-group">
             <label>Nascimento</label>
             <MaskedInput mask='11/11/1111' 
                 className="form-control"
@@ -31,7 +31,7 @@ export default props =>
         </div>
     </div>
     <div className="col-6 col-md-2">
-        <div className="form-goup">
+        <div className="form-group">
             <label>Nº Matricula</label>
             <input type="text" className="form-control"
                 name="matricula" 
@@ -45,7 +45,7 @@ export default props =>
 </div>
 <div className="row">
 <div className="col-12 col-md-6">
-        <div className="form-goup">
+        <div className="form-group">
             <label>Endereço</label>
             <input type="text" className="form-control"
                 name="endereco" 
@@ -57,7 +57,7 @@ export default props =>
         </div>
     </div>
     <div className="col-4 col-md-2">
-        <div className="form-goup">
+        <div className="form-group">
             <label>Série</label>
             <select type="text" className="form-control"
                 name="serie" 
@@ -81,7 +81,7 @@ export default props =>
         </div>
     </div>
     <div className="col-4 col-md-2">
-        <div className="form-goup">
+        <div className="form-group">
             <label>Turma</label>
             <input type="text" className="form-control"
                 name="turma" 
@@ -93,10 +93,12 @@ export default props =>
         </div>
     </div>
     <div className="col-4 col-md-2">
-        <div className="form-goup">
+        <div className="form-group">
             <label>Turno</label>
             <select type="text" className="form-control"
-                name="turno" onChange={e => props.updateField(e)} value={props.turno}>
+                name="turno"
+                onChange={e => props.updateField(e)}
+                value={props.turno}>
                 <option value="">Selecionar</option>
                 <option value="Manhã">Manhã</option>
                 <option value="Tarde">Tarde</option>
@@ -106,7 +108,7 @@ export default props =>
     </div>
     
     <div className="col-12 col-md-6">
-        <div className="form-goup">
+        <div className="form-group">
             <label>Pai</label>
             <input type="text" className="form-control"
                 name="filiacao1" 
@@ -118,7 +120,7 @@ export default props =>
         </div>
     </div>
     <div className="col-12 col-md-6">
-        <div className="form-goup">
+        <div className="form-group">
             <label>Mãe</label>
             <input type="text" className="form-control"
                 name="filiacao2" 
@@ -130,14 +132,14 @@ export default props =>
         </div>
     </div>
     <div className="col-12 col-md-12">
-        <div className="form-goup">
+        <div className="form-group">
             <label>Obs.:</label>
             <input type="text" className="form-control"
                 name="mais" 
                 value={props.mais}
                 autoComplete="off"
                 onChange={e => props.updateField(e)}
-                placeholder="Observações caso haja necessario." />
+                placeholder="Observações caso seja necessario." />
         </div>
     </div>
 </div>

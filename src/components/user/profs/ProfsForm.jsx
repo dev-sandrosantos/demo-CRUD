@@ -18,7 +18,7 @@ export default props =>
         </div>
     </div>
     <div className="col-6 col-md-2">
-        <div className="form-goup">
+        <div className="form-grupo">
             <label>Nascimento</label>
             <MaskedInput mask='11/11/1111'
                 className="form-control"
@@ -31,7 +31,7 @@ export default props =>
         </div>
     </div>
     <div className="col-6 col-md-2">
-        <div className="form-goup">
+        <div className="form-grupo">
             <label>CPF</label>
             <MaskedInput mask='111.111.111-11'
                 className="form-control"
@@ -46,7 +46,7 @@ export default props =>
 </div>
 <div className="row">
 <div className="col-4 col-md-2">
-        <div className="form-goup">
+        <div className="form-grupo">
             <label>Diciplina</label>
             <select type="text" className="form-control"
                 name="materia" 
@@ -62,7 +62,7 @@ export default props =>
         </div>
     </div>
     <div className="col-4 col-md-2">
-        <div className="form-goup">
+        <div className="form-grupo">
             <label>Série</label>
             <select type="text" className="form-control"
                 name="serie" 
@@ -86,7 +86,7 @@ export default props =>
         </div>
     </div>
     <div className="col-4 col-md-2">
-        <div className="form-goup">
+        <div className="form-grupo">
             <label>Turma</label>
             <input type="text" className="form-control"
                 name="turma" 
@@ -98,7 +98,7 @@ export default props =>
         </div>
     </div>    
     <div className="col-2 col-md-2">
-        <div className="form-goup">
+        <div className="form-grupo">
             <label>PIS/PASEP</label>
             <MaskedInput mask='111.11111.11-1' 
                 className="form-control"
@@ -111,7 +111,7 @@ export default props =>
         </div>
     </div>
     <div className="col-6 col-md-2">
-        <div className="form-goup">
+        <div className="form-grupo">
             <label>Data de Cadastro</label>
             <MaskedInput mask='11/11/1111'
                 className="form-control"

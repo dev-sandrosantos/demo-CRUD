@@ -18,14 +18,14 @@
       "dcadastro": "04/09/2020",
       "id": 2,
       "serie": "1° Ano Fundamental",
-      "turma": "C"
+      "turma": "A"
     },
     {
       "matricula": "2001",
       "name": "Marcos Souza",
       "nascimento": "14/09/2013",
       "endereco": "Rua Seis",
-      "serie": "3° Ano Fundamental",
+      "serie": "1° Ano Fundamental",
       "turma": "A",
       "filiacao1": "Pedro Henrique",
       "filiacao2": "Flavia Maria",
@@ -35,17 +35,17 @@
       "id": 3
     },
     {
-      "matricula": "0123456789",
-      "name": "Mateus Matins",
-      "nascimento": "21/03/1989",
-      "endereco": "Rua das uni, 55, Centro, Recife -PE",
-      "serie": "1° Ano Fundamental",
-      "turma": "B",
-      "filiacao1": "João",
-      "filiacao2": "MAria",
-      "mais": "sem comentários",
-      "turno": "Tarde",
-      "dcadastro": "09/09/2020",
+      "matricula": "2006",
+      "name": "Pauo Salva",
+      "nascimento": "23/09/2017",
+      "endereco": "ghgja",
+      "serie": "2° Ano Fundamental",
+      "turma": "A",
+      "filiacao1": "dfagsh",
+      "filiacao2": "safh",
+      "mais": "dd",
+      "turno": "Manhã",
+      "dcadastro": "12/09/2020",
       "id": 4
     }
   ],
