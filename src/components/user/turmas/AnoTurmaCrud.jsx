@@ -1,6 +1,7 @@
 import React from 'react'
 import axios from 'axios'
 import Main from '../../template/Main'
+import MaskedInput from 'react-maskedinput'
 
 const headerProps = {
     icon: 'university',
@@ -20,19 +21,13 @@ export default class AnoTurmaCrud extends React.Component{
     constructor(){
         super()
         this.state = {...initialState}
-        this.updateField = this.updateField.bind(this)
-        this.handleEnterPress = this.handleEnterPress.bind(this)}
+        this.updateField = this.updateField.bind(this)}
         async componentDidMount(){
             await axios.get(baseUrl).then(response => {
                 this.setState({ list: response.data})
             })
         }
-        handleEnterPress(event) {
-            if (event.key === 'Enter') {
-                this.save()
-            }
-        }
-
+        
         updateField(event) {
             const user = { ...this.state.user }
             user[event.target.name] = event.target.value
@@ -49,7 +44,6 @@ export default class AnoTurmaCrud extends React.Component{
                                 <select type="text" className="form-control"
                                     name="serie" 
                                     value={this.state.user.serie}
-                                    onKeyPress={this.handleEnterPress}
                                     onChange={e => this.updateField(e)}>
                                     <option value="">Selecionar</option>
                                     <option value="1° Ano Fundamental">1° Ano Fundamental</option>
@@ -67,6 +61,17 @@ export default class AnoTurmaCrud extends React.Component{
                                     </select>
                             </div>
                         </div>
+                        <div className="col-2">
+        <div className="form-group">
+            <label>Turma</label>
+            <MaskedInput mask={"A"} type="text" className="form-control"
+                name="turma" 
+                value={this.state.user.turma}
+                autoComplete="off"
+                onChange={e => this.updateField(e)}
+                placeholder="Turma" />
+        </div>
+    </div>
                     </div>
                 </div>
             )
@@ -92,13 +97,25 @@ export default class AnoTurmaCrud extends React.Component{
         renderRows(){
             const mylist = this.state.list
             const ano = this.state.user.serie
-        return mylist.filter(a => a.serie === ano).map(u => {
+            const turm = this.state.user.turma
+        if(turm === undefined) {
+            return mylist.filter(a => a.serie === ano).map(u => {
             return (<tr key={u.id}>
                 <td>{u.matricula}</td>
                 <td>{u.name}</td>
                 <td>{u.serie}</td>
                 <td>{u.turma}</td>
-            </tr>)})
+            </tr>)})}
+            else {                
+            return mylist.filter(a => a.serie === ano)
+                .filter(a => a.turma === turm).map(u => {
+                return (<tr key={u.id}>
+                    <td>{u.matricula}</td>
+                    <td>{u.name}</td>
+                    <td>{u.serie}</td>
+                    <td>{u.turma}</td>
+                </tr>)})
+            }
         }
     render(){
         console.log(this.mylist)

@@ -1,13 +1,7 @@
 {
   "users": [
     {
-      "ano": [
-        {
-          "serie": "",
-          "turma": ""
-        }
-      ],
-      "matricula": "2002",
+      "matricula": 2002,
       "name": "Fulano Neto",
       "nascimento": "21/08/1994",
       "endereco": "Rua das Flores, 16, Centro, Recife - PE CEP: 51.753-123",
@@ -21,7 +15,7 @@
       "turma": "A"
     },
     {
-      "matricula": "2001",
+      "matricula": 2001,
       "name": "Marcos Souza",
       "nascimento": "14/09/2013",
       "endereco": "Rua Seis",
@@ -35,18 +29,32 @@
       "id": 3
     },
     {
-      "matricula": "2006",
+      "matricula": 2006,
       "name": "Pauo Salva",
       "nascimento": "23/09/2017",
       "endereco": "ghgja",
-      "serie": "2° Ano Fundamental",
-      "turma": "A",
+      "serie": "1° Ano Fundamental",
+      "turma": "B",
       "filiacao1": "dfagsh",
       "filiacao2": "safh",
       "mais": "dd",
       "turno": "Manhã",
       "dcadastro": "12/09/2020",
       "id": 4
+    },
+    {
+      "matricula": "1298",
+      "name": "Bruno Neto",
+      "nascimento": "11/09/2016",
+      "endereco": "Av São Bento 115 Centro",
+      "serie": "1° Ano Fundamental",
+      "turma": "B",
+      "filiacao1": "Thiago Fiho",
+      "filiacao2": "Marcela Aparecida",
+      "mais": "",
+      "turno": "Tarde",
+      "dcadastro": "13/09/2020",
+      "id": 5
     }
   ],
   "teachers": [
