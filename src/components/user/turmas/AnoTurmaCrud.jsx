@@ -98,7 +98,7 @@ export default class AnoTurmaCrud extends React.Component{
             const mylist = this.state.list
             const ano = this.state.user.serie
             const turm = this.state.user.turma
-        if(turm === undefined) {
+        if(turm === undefined || turm === "") {
             return mylist.filter(a => a.serie === ano).map(u => {
             return (<tr key={u.id}>
                 <td>{u.matricula}</td>

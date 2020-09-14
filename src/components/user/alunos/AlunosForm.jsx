@@ -83,7 +83,8 @@ export default props =>
     <div className="col-4 col-md-2">
         <div className="form-group">
             <label>Turma</label>
-            <input type="text" className="form-control"
+            <MaskedInput mask={"A"}
+                type="text" className="form-control"
                 name="turma" 
                 value={props.turma}
                 autoComplete="off"
